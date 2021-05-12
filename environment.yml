@@ -1,0 +1,11 @@
+name: covid_model
+channels:
+    - conda-forge
+dependencies:
+    - theano
+    - pymc3
+    - sunode
+    - notebook
+    - pip
+    - pip:
+        - streamlit
